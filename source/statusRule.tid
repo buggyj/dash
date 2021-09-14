@@ -1,0 +1,9 @@
+tags: RuleTable
+title: $:/bj/statusRule
+type: text/vnd.tiddlywiki
+
+\rules only table wikilink prettylink
+
+|!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
+|$:/bj/var/SearchInProgress|||{"$text":"false"}||add modify|
+						

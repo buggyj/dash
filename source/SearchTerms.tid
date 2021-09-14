@@ -1,0 +1,10 @@
+tags: $:/bj/SearchTerms
+title: $:/bj/SearchTerms
+type: application/json
+
+{
+    "text": "",
+    "title": "",
+    "len": "15",
+    "middle": "  ...  "
+}

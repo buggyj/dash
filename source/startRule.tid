@@ -1,0 +1,9 @@
+tags: RuleTable
+title: $:/bj/startRule
+type: text/vnd.tiddlywiki
+
+\rules only table wikilink prettylink
+
+|!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
+|$:/bj/var/SearchInProgress|||[[$:/bj/doStartScript]]|{"$text":"false"}|add append|
+						

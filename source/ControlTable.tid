@@ -1,0 +1,6 @@
+tags: ActionTable
+title: $:/bj/ControlTable
+type: text/vnd.tiddlywiki
+
+|!Category|!Tip|!Tags|!Rule Tid|!Modes|
+|start|||[[$:/bj/startRule]]||

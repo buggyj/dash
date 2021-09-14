@@ -1,0 +1,10 @@
+tags: Script
+title: $:/bj/doStartScript
+type: application/x-bclip
+
+#busy=((*$text*))
+#config:={{((*@Tws*))}}
+#aux:={{((*@SearchFile*))}}
+#command=start
+#test=((*!#busy*??*@send(#command,#config,#aux)*))
+$text=true

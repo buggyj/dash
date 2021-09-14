@@ -1,0 +1,6 @@
+title: $:/bj/newPathScript
+type: application/x-bclip
+
+#title:={{((*@titleBaseConf*))}}
+%newtitle=((*@newtitle(#title)*))
+$title=((*%newtitle*))

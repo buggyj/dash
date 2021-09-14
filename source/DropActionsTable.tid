@@ -1,0 +1,10 @@
+tags: ActionTable
+title: $:/bj/DropActionsTable
+type: text/vnd.tiddlywiki
+
+|!Category|!Tip|!Tags|!Rule Tid|!Modes|
+|onDrop|||[[$:/bj/dropRule]]||
+|New|||[[$:/bj/NewSearchRule]]||
+|DelSearch|||[[$:/bj/DelSearchRule]]||
+|NewPaths|||[[$:/bj/NewPathsRule]]||
+|DelPaths|||[[$:/bj/DelPathsRule]]||

@@ -1,0 +1,13 @@
+{
+	"plugins": [
+		"bj/searchfortids"
+	],
+	"themes": [
+		"tiddlywiki/vanilla",
+		"tiddlywiki/snowwhite"
+	],
+		"doNotSave": [
+	],
+	"includeWikis": [
+	]
+}

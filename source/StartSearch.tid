@@ -1,0 +1,10 @@
+tags: $:/bj/searchapp
+title: $:/bj/StartSearch
+type: text/vnd.tiddlywiki
+
+<$createclip>
+<$button>
+send search params
+<$action-tiddlydo  $tabletid="$:/bj/ControlTable" $catname="start" Tws={{$:/bj/var/CurrentTwPaths}}  SearchFile={{$:/bj/var/SearchFile}}/>
+</$button>
+</$createclip>

@@ -1,0 +1,10 @@
+tags: RuleTable
+title: $:/bj/DelPathsRule
+type: text/vnd.tiddlywiki
+
+\rules only table wikilink prettylink
+
+|!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
+|((*@title*))|||||delete|
+|$:/bj/var/CurrentTwPaths|||||add|
+

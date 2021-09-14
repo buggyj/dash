@@ -1,0 +1,10 @@
+tags: RuleTable
+title: $:/bj/NewPathsRule
+type: text/vnd.tiddlywiki
+
+\rules only table wikilink prettylink
+
+|!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
+|$:/bj/TidWikiPathsformat||$:/bj/TidWikisList|[[$:/bj/newPathScript]]||modify add inc|
+|$:/bj/var/CurrentTwPaths|((*%newtitle*))||||add|
+

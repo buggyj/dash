@@ -1,0 +1,9 @@
+tags: 
+title: $:/bj/dropRule
+type: text/vnd.tiddlywiki
+
+\rules only table wikilink prettylink
+
+|!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
+|((*@TidWikis*))|||{"$text":"((*@addjsondata($text,@filepath)*))"}|{"$type":"application/json"}|append add|
+						

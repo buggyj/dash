@@ -1,0 +1,11 @@
+tags: $:/bj/searchapp
+title: $:/bj/Search
+type: text/vnd.tiddlywiki
+
+{{$:/bj/StartSearch}}
+----
+{{$:/bj/EditSearchTerms}}
+----
+{{$:/bj/ListSearchTws}}
+----
+{{$:/bj/DropArea}}

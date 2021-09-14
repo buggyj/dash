@@ -1,0 +1,10 @@
+tags: Script
+title: $:/bj/addingScript
+type: application/x-bclip
+
+#SearchTerms:={{$:/bj/var/SearchFile}}
+#key:={{((*#SearchTerms*))##text}}
+#len:={{((*#SearchTerms*))##len}}
+#middle:={{((*#SearchTerms*))##middle}}
+$text=((*@shortern($text,#key,#len,#middle)*))
+$type=text/plain

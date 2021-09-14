@@ -1,0 +1,10 @@
+tags: RuleTable
+title: $:/bj/NewSearchRule
+type: text/vnd.tiddlywiki
+
+\rules only table wikilink prettylink
+
+|!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
+|$:/bj/SearchTerms||$:/bj/SearchTerms|[[$:/bj/newPathScript]]||modify add inc|
+|$:/bj/var/SearchFile|((*%newtitle*))||||add|
+
