@@ -1,0 +1,6 @@
+title: $:/bj/InitVals
+type: application/x-bclip
+
+#rule=/^([\s\S]*?)::([\s\S]*)$/
+#term=$1
+%tw=((*$title/#rule/#term*))
