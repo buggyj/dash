@@ -4,3 +4,4 @@ type: text/vnd.tiddlywiki
 
 |!Category|!Tip|!Tags|!Rule Tid|!Modes|
 |start|||[[$:/bj/startRule]]||
+|DelResults|||$:/bj/DelResultsRule||

@@ -1,6 +1,6 @@
 {
 	"plugins": [
-		"bj/searchfortids"
+		"bj/dash"
 	],
 	"themes": [
 		"tiddlywiki/vanilla",

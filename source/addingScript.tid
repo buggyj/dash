@@ -8,3 +8,6 @@ type: application/x-bclip
 #middle:={{((*#SearchTerms*))##middle}}
 $text=((*@shortern($text,#key,#len,#middle)*))
 $type=text/plain
+#replacestr=::
+#withstr=->
+$title=((*$title:#replacestr:#withstr*))

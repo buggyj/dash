@@ -4,6 +4,9 @@ type: text/vnd.tiddlywiki
 
 <$createclip>
 <$button>
+<$list filter="[tag[ResuLts]]">
+<$action-tiddlydo  $tabletid="$:/bj/ControlTable" $catname="DelResults" title=<<currentTiddler>>/>
+</$list>
 send search params
 <$action-tiddlydo  $tabletid="$:/bj/ControlTable" $catname="start" Tws={{$:/bj/var/CurrentTwPaths}}  SearchFile={{$:/bj/var/SearchFile}}/>
 </$button>

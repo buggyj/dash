@@ -5,5 +5,7 @@ type: text/vnd.tiddlywiki
 \rules only table wikilink prettylink
 
 |!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
-|((*$title*))|||[[$:/bj/addingScript]]|||
+||||[[$:/bj/InitVals]]||nosave|
+|((*%tw*))|||{"$type":"application/json"},{"$plugin-type":"import"},{"$text":"{\"tiddlers\":{}}"},{"$tags":"ResuLts"}||no-textsaver once add|
+|((*$title*))|||[[$:/bj/addingScript]]||add append|
 						
