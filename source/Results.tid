@@ -1,0 +1,8 @@
+title: $:/bj/Results
+type: text/vnd.tiddlywiki
+
+
+<$list filter="[tag[ResuLts]]">
+
+{{||$:/bj/template/results}}
+</$list>

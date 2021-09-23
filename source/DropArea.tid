@@ -4,10 +4,12 @@ type: text/vnd.tiddlywiki
 
 <$createclip>
 to add tw to list of  paths drop here
-<$ondrop  $tabletid="$:/bj/DropActionsTable" $catname="onDrop"  TidWikis={{$:/bj/var/CurrentTwPaths}} current=<<currentTiddler>> >
-
-{{$:/core/images/plus-button}}
-
+<$ondrop  $tabletid="$:/bj/DropActionsTable" $catname="onDrop"  TidWikis={{$:/temp/bj/CurrentTwPaths}} current=<<currentTiddler>> >
+<div id="dropdiv">
+<div id = "dropdivinner">
+{{$:/core/images/cancel-button}}
+</div>
+</div>
 </$ondrop>
 
 </$createclip>

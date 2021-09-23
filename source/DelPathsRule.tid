@@ -6,5 +6,5 @@ type: text/vnd.tiddlywiki
 
 |!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
 |((*@title*))|||||delete|
-|$:/bj/var/CurrentTwPaths|||||add|
+|$:/temp/bj/CurrentTwPaths|||||delete|
 

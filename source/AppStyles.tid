@@ -1,0 +1,97 @@
+title: $:/bj/AppStyles
+type: text/vnd.tiddlywiki
+
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+code {
+  color:red!important; 
+}
+div#main {
+  margin-left: 0px !important; 
+}
+     div#main-content { 
+       width: 800px; 
+       margin: 0 auto; 
+       padding: 10px; 
+       border: 0px solid #000;
+     }
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+div#banner { 
+  
+   top: 0; 
+   left: 0; 
+   background-color: #DDEEEE; 
+   width: 100%; 
+ }
+ div#banner-content { 
+   width: 100%; 
+   margin: 0 auto; 
+   padding: 10px; 
+   border: 1px solid #000;
+ }
+     
+.blink {
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+#dropdiv {
+width: 100px; 
+height: 100px;
+       margin: 0 auto; 
+       padding: 23px; 
+       border: 2px solid #000;
+
+}
+#dropdivinner {
+width: 50px; 
+height: 50px;
+       margin: 0 auto; 
+       padding: 9px; 
+       border: 1px solid #000;
+
+}
+</style>

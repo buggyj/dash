@@ -7,7 +7,7 @@ type: text/vnd.tiddlywiki
 <$list filter="[tag[ResuLts]]">
 <$action-tiddlydo  $tabletid="$:/bj/ControlTable" $catname="DelResults" title=<<currentTiddler>>/>
 </$list>
-send search params
-<$action-tiddlydo  $tabletid="$:/bj/ControlTable" $catname="start" Tws={{$:/bj/var/CurrentTwPaths}}  SearchFile={{$:/bj/var/SearchFile}}/>
+Start Searching
+<$action-tiddlydo  $tabletid="$:/bj/ControlTable" $catname="start" Tws={{$:/temp/bj/CurrentTwPaths}}  SearchFile={{$:/temp/bj/SearchFile}}/>
 </$button>
 </$createclip>

@@ -1,0 +1,25 @@
+description: Custom Page Layout
+name: main page
+tags: $:/tags/Layout
+title: $:/bj/PageLayout
+type: text/vnd.tiddlywiki
+
+<$transclude tiddler="$:/bj/AppStyles"/>
+
+{{$:/bj/banner}}
+
+<div id="main">
+<div id="main-content">
+
+<$transclude tiddler={{$:/bj/var/switcher}} />
+
+</div>
+</div>
+<$createclip>
+<$button set="$:/layout" setTo="$:/core/ui/PageTemplate">
+Switch to ~TiddlyWiki user interface
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/KeyboardShortcut]]">
+<$action-tiddlydo  $tabletid="$:/bj/ControlTable" $catname="StartKeyB" title=<<currentTiddler>>/>
+</$list>
+</$button> (or type <kbd>ctrl-shift-L</kbd>)
+</$createclip>

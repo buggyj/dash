@@ -1,0 +1,7 @@
+tags: Script
+title: $:/bj/openScript
+type: application/x-bclip
+
+#command=open
+#test=((*@send(#command,@title)*))
+

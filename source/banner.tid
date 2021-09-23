@@ -1,0 +1,17 @@
+title: $:/bj/banner
+type: text/vnd.tiddlywiki
+
+<div id="banner"><div id="banner-content">
+<$button set="$:/bj/var/switcher" setTo="$:/bj/Results">
+Results
+
+</$button>
+
+
+<$button set="$:/bj/var/switcher" setTo="$:/bj/Search">
+app
+
+</$button>
+Tiddly Dash <$reveal class="blink"  type="match" text="true" state="$:/temp/bj/var/SearchInProgress">{{$:/core/images/advanced-search-button}}</$reveal>
+</div>
+</div>

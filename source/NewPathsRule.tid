@@ -6,5 +6,4 @@ type: text/vnd.tiddlywiki
 
 |!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
 |$:/bj/TidWikiPathsformat||$:/bj/TidWikisList|[[$:/bj/newPathScript]]||modify add inc|
-|$:/bj/var/CurrentTwPaths|((*%newtitle*))||||add|
-
+|$:/temp/bj/CurrentTwPaths|((*%newtitle*))||||add|

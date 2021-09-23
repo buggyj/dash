@@ -2,7 +2,7 @@ tags: $:/bj/searchapp
 title: $:/bj/EditSearchTerms
 type: text/vnd.tiddlywiki
 
-<$select tiddler='$:/bj/var/SearchFile'>
+<$select tiddler='$:/temp/bj/SearchFile' default="Choose Search"><option disabled style="display:none">Choose Search</option>
 <$list filter='[tag[$:/bj/SearchTerms]]'>
 <option><$view field='title'/></option>
 </$list>
@@ -14,12 +14,12 @@ New
 
 <$button>
 Del
-<$action-tiddlydo  $tabletid="$:/bj/DropActionsTable" $catname="DelSearch" title={{$:/bj/var/SearchFile}}/>
+<$action-tiddlydo  $tabletid="$:/bj/DropActionsTable" $catname="DelSearch" title={{$:/temp/bj/SearchFile}}/>
 </$button>
 </$createclip>
-<table><$list filter="[{$:/bj/var/SearchFile}indexes[]]" variable="currentIndex">
+<table><$list filter="[{$:/temp/bj/SearchFile}indexes[]]" variable="currentIndex">
 <tr><td>
-<<currentIndex>>:</td><td><$edit-text tiddler={{$:/bj/var/SearchFile}} index=<<currentIndex>> tag="input"/></td></tr>
+<<currentIndex>>:</td><td><$edit-text tiddler={{$:/temp/bj/SearchFile}} index=<<currentIndex>> tag="input"/></td></tr>
 </$list>
 </table>
 

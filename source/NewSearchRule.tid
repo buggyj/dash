@@ -6,5 +6,6 @@ type: text/vnd.tiddlywiki
 
 |!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
 |$:/bj/SearchTerms||$:/bj/SearchTerms|[[$:/bj/newPathScript]]||modify add inc|
-|$:/bj/var/SearchFile|((*%newtitle*))||||add|
+|$:/temp/bj/SearchFile|((*%newtitle*))||||add|
+
 

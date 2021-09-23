@@ -6,6 +6,6 @@ type: text/vnd.tiddlywiki
 ----
 {{$:/bj/EditSearchTerms}}
 ----
-{{$:/bj/ListSearchTws}}
-----
 {{$:/bj/DropArea}}
+----
+{{$:/bj/ListSearchTws}}
