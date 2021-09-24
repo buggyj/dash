@@ -8,3 +8,4 @@ type: text/vnd.tiddlywiki
 |DelSearch|||[[$:/bj/DelSearchRule]]||
 |NewPaths|||[[$:/bj/NewPathsRule]]||
 |DelPaths|||[[$:/bj/DelPathsRule]]||
+|DelPath|||[[$:/bj/DelPathRule]]||

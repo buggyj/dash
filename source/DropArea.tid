@@ -3,8 +3,7 @@ title: $:/bj/DropArea
 type: text/vnd.tiddlywiki
 
 <$createclip>
-to add tw to list of  paths drop here
-<$ondrop  $tabletid="$:/bj/DropActionsTable" $catname="onDrop"  TidWikis={{$:/temp/bj/CurrentTwPaths}} current=<<currentTiddler>> >
+<div class="center"><div>to add tw to list of  paths drop here</div></div><$ondrop  $tabletid="$:/bj/DropActionsTable" $catname="onDrop"  TidWikis={{$:/temp/bj/CurrentTwPaths}} current=<<currentTiddler>> >
 <div id="dropdiv">
 <div id = "dropdivinner">
 {{$:/core/images/cancel-button}}

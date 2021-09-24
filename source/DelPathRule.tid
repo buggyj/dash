@@ -1,0 +1,10 @@
+tags: RuleTable
+title: $:/bj/DelPathRule
+type: text/vnd.tiddlywiki
+
+\rules only table wikilink prettylink
+
+|!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
+|null|||{"#null":"((*@deljsondata(@TidWikis,@path)*))"}||nosave|
+						
+

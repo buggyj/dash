@@ -2,29 +2,36 @@ tags: $:/bj/searchapp
 title: $:/bj/ListSearchTws
 type: text/vnd.tiddlywiki
 
-<$select tiddler='$:/temp/bj/CurrentTwPaths'  default='Choose Paths'><option disabled style="display:none">Choose Paths</option><$list filter='[tag[$:/bj/TidWikisList]]'>
+<$createclip><div class="center"><div><$button class="tc-btn-invisible">
+{{$:/core/images/delete-button}}
+<$action-tiddlydo  $tabletid="$:/bj/DropActionsTable" $catname="DelPaths" title={{$:/temp/bj/CurrentTwPaths}}/>
+</$button><$select tiddler='$:/temp/bj/CurrentTwPaths'  default='Choose Paths'><option disabled style="display:none">Choose Paths</option><$list filter='[tag[$:/bj/TidWikisList]]'>
 <option><$view field='title'/></option>
 </$list>
-</$select><$createclip>
+</$select>
 <$button>
 New
 <$action-tiddlydo  $tabletid="$:/bj/DropActionsTable" $catname="NewPaths" titleBaseConf="$:/bj/var/pathsBaseName"/>
 </$button>
-
-<$button>
-Del
-<$action-tiddlydo  $tabletid="$:/bj/DropActionsTable" $catname="DelPaths" title={{$:/temp/bj/CurrentTwPaths}}/>
-</$button>
-</$createclip>
+</div>
+</div>
 
 
-<table><$list filter="[{$:/temp/bj/CurrentTwPaths}indexes[]]" variable="currentIndex">
-<tr><td>
+<div class="center"><div>
+<table><$list filter="[{$:/temp/bj/CurrentTwPaths}indexes[]]" variable="currentIndex"><tr><td>
+<$button class="tc-btn-invisible">
+{{$:/core/images/delete-button}}
+<$action-tiddlydo  $tabletid="$:/bj/DropActionsTable" $catname="DelPath" path=<<currentIndex>> TidWikis={{$:/temp/bj/CurrentTwPaths}}/>
+</$button></td><td>
 <<currentIndex>>:</td><td><$select tiddler={{$:/temp/bj/CurrentTwPaths}} index=<<currentIndex>>>
 <option>true</option>
 <option>false</option>
 </$select></td></tr>
 </$list>
 </table>
+</div>
+</div>
+</$createclip>
+
 
 

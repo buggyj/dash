@@ -2,7 +2,7 @@ tags: $:/bj/searchapp
 title: $:/bj/StartSearch
 type: text/vnd.tiddlywiki
 
-<$createclip>
+<div class="center"><div><$createclip>
 <$button>
 <$list filter="[tag[ResuLts]]">
 <$action-tiddlydo  $tabletid="$:/bj/ControlTable" $catname="DelResults" title=<<currentTiddler>>/>
@@ -11,3 +11,4 @@ Start Searching
 <$action-tiddlydo  $tabletid="$:/bj/ControlTable" $catname="start" Tws={{$:/temp/bj/CurrentTwPaths}}  SearchFile={{$:/temp/bj/SearchFile}}/>
 </$button>
 </$createclip>
+</div></div>

@@ -1,6 +1,7 @@
 {
 	"plugins": [
-		"bj/dash"
+		"bj/dash",
+		"bj/droptron"
 	],
 	"themes": [
 		"tiddlywiki/vanilla",
