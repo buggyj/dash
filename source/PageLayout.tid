@@ -23,3 +23,5 @@ Switch to ~TiddlyWiki user interface
 </$list>
 </$button> (or type <kbd>ctrl-shift-L</kbd>)
 </$createclip>
+
+{{$:/plugins/bj/tiddlyclip/template}}

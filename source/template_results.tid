@@ -14,7 +14,7 @@ type: text/vnd.tiddlywiki
 <tbody>
 <tr>
 <th>
-<<currentTiddler>>
+<$text text=<<currentTiddler>>/>
 </th>
 
 </tr><$createclip>
@@ -37,7 +37,10 @@ type: text/vnd.tiddlywiki
 
 <$reveal type="match" text="yes" state=<<resultPopupState>> tag="tr">
 <td >
-<$transclude tiddler=<<currentTiddler>> subtiddler=<<result>> mode="block"/>
+<$createclip $cattid="$:/bj/HighlightRule" tiddler=<<currentTiddler>> subtiddler=<<result>>>
+
+<$macrocall $name="Result!!text"/>
+</$createclip>
 </td>
 </$reveal>
 

@@ -6,6 +6,6 @@ type: text/vnd.tiddlywiki
 
 |!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
 ||||[[$:/bj/InitVals]]||nosave|
-|((*%tw*))|||{"$type":"application/json"},{"$plugin-type":"results"},{"$text":"{\"tiddlers\":{}}"},{"$tags":"ResuLts"}||no-textsaver once add|
+|((*%tw*))|||[[$:/bj/storekeyScript]]||no-textsaver once add|
 |((*$title*))|||[[$:/bj/addingScript]]||add append|
 						

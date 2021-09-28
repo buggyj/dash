@@ -12,7 +12,12 @@ body {
 }
 
 code {
-  color:red!important; 
+  color:red; 
+}
+
+scan code {
+  color:red;
+background-color:yellow; 
 }
 div#main {
   margin-left: 0px !important; 
@@ -29,6 +34,9 @@ div#main {
   .sidenav a {font-size: 18px;}
 }
 
+#highlighttext{
+ highlighttext: yellow!important;
+}
 
 div#banner { 
   

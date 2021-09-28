@@ -1,0 +1,12 @@
+tags: Script
+title: $:/bj/HighlightScript
+type: application/x-bclip
+
+#text:={{((*@tiddler*))->((*@subtiddler*))}}
+#key:={{((*@tiddler*))!!key}}
+#case:={{((*@tiddler*))!!case}}
+$text=((*@highlight(#text,#key,#case)*))
+
+
+
+

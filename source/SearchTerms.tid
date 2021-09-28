@@ -3,8 +3,10 @@ title: $:/bj/SearchTerms
 type: application/json
 
 {
+    "tag": "",
     "text": "",
     "title": "",
     "len": "15",
-    "middle": "  ...  "
+    "middle": "  ...  ",
+    "case":"any"
 }

@@ -9,8 +9,8 @@ type: text/vnd.tiddlywiki
 <option><$view field='title'/></option>
 </$list>
 </$select>
-<$button>
-New
+<$button class="tc-btn-invisible">
+{{$:/core/images/new-button}}
 <$action-tiddlydo  $tabletid="$:/bj/DropActionsTable" $catname="NewPaths" titleBaseConf="$:/bj/var/pathsBaseName"/>
 </$button>
 </div>

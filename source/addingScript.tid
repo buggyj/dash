@@ -6,7 +6,8 @@ type: application/x-bclip
 #key:={{((*#SearchTerms*))##text}}
 #len:={{((*#SearchTerms*))##len}}
 #middle:={{((*#SearchTerms*))##middle}}
-$text=((*@shortern($text,#key,#len,#middle)*))
+#case:={{((*#SearchTerms*))##case}}
+$text=((*@shortern($text,#key,#case,#len,#middle)*))
 $type=text/plain
 #replacestr=::
 #withstr=->
