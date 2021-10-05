@@ -2,6 +2,10 @@ tags: $:/bj/searchapp
 title: $:/bj/EditSearchTerms
 type: text/vnd.tiddlywiki
 
+\define my-actions()
+<$action-sendmessage $message="tm-auto-save-wiki"/>
+\end
+
 <div class="center"><div style=" margin: 0 auto; "><$createclip><$button class="tc-btn-invisible" >
 {{$:/core/images/delete-button}}
 <$action-tiddlydo  $tabletid="$:/bj/DropActionsTable" $catname="DelSearch" title={{$:/temp/bj/SearchFile}}/>
@@ -21,16 +25,16 @@ type: text/vnd.tiddlywiki
 <$list filter="[all[current]title{$:/temp/bj/SearchFile}is[tiddler]]" >
 <table>
 <tr><td>
-title:</td><td><$edit-text tiddler={{$:/temp/bj/SearchFile}} index=title tag="input"/>
+title:</td><td><$edit-text tiddler={{$:/temp/bj/SearchFile}} index=title tag="input" />
 </td></tr>
 <tr><td>
-tag:</td><td><$edit-text tiddler={{$:/temp/bj/SearchFile}} index=tag tag="input"/>
+tag:</td><td><$edit-text tiddler={{$:/temp/bj/SearchFile}} index=tag tag="input" />
 </td></tr>
 <tr><td>
-text:</td><td><$edit-text tiddler={{$:/temp/bj/SearchFile}} index=text tag="input"/>
+text:</td><td><$edit-text tiddler={{$:/temp/bj/SearchFile}} index=text tag="input" />
 </td></tr>
 <tr><td>
-charcase:</td><td><$edit-text tiddler={{$:/temp/bj/SearchFile}} index=case tag="input"/>
+charcase:</td><td><$edit-text tiddler={{$:/temp/bj/SearchFile}} index=case tag="input" />
 </td></tr>
 <tr>
 <td> <$reveal type="match" state="$:/temp/advancedOpts" text="no" default='no'> <$button set='$:/temp/advancedOpts' setTo='yes' class="tc-btn-invisible" >{{$:/core/images/chevron-down}}</$button></$reveal><$reveal type="nomatch" state="$:/temp/advancedOpts" text="no" default='no'> <$button set='$:/temp/advancedOpts' setTo='no'  class="tc-btn-invisible" >{{$:/core/images/chevron-up}}</$button></$reveal></td><td> <hr></td>

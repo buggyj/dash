@@ -1,0 +1,11 @@
+tags: $:/bj/searchapp
+title: $:/bj/getconfbutton
+type: text/vnd.tiddlywiki
+
+<div class="center"><div><$createclip>
+<$button>
+
+get conf <$action-tiddlydo  $tabletid="$:/bj/ControlTable" $catname="getuserConfig" />
+</$button>
+</$createclip>
+</div></div>

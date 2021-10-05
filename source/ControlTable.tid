@@ -8,3 +8,5 @@ type: text/vnd.tiddlywiki
 |open|||$:/bj/openRule||
 |StopKeyB|||$:/bj/StopKeyBRule||
 |StartKeyB|||$:/bj/DelResultsRule||
+|getuserConfig|||$:/bj/getUserConfigRule||
+|savetw|||$:/bj/savetwRule||

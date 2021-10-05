@@ -3,19 +3,18 @@ type: text/vnd.tiddlywiki
 
 \define resultPopupState() $(currentTiddler)$!!popup-$(result)$
 
-\define extLink() $(currentTiddler)$/#$(result)$
+\define extLink(tw) $(tw)$/#$(result)$
 
 \define my-actions()
 <$action-tiddlydo  $tabletid="$:/bj/ControlTable" $catname="open" title=<<navigateTo>>/>
 \end
 
-
+<$vars tw={{{[all[current]] +[removeprefix[$:/temp/]]}}}>
 <table class="tc-import-table">
 <tbody>
 <tr>
 <th>
-<$text text=<<currentTiddler>>/>
-</th>
+<$text text=<<tw>>/></th>
 
 </tr><$createclip>
 <$linkcatcher actions=<<my-actions>>>

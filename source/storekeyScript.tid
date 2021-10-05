@@ -3,7 +3,6 @@ title: $:/bj/storekeyScript
 type: application/x-bclip
 
 $type=application/json
-$plugin-type":=results
 $text={"tiddlers":{}}
 $tags=ResuLts
 #SearchTerms:={{$:/temp/bj/SearchFile}}

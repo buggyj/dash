@@ -11,4 +11,4 @@ $text=((*@shortern($text,#key,#case,#len,#middle)*))
 $type=text/plain
 #replacestr=::
 #withstr=->
-$title=((*$title:#replacestr:#withstr*))
+$title=$:/temp/((*$title:#replacestr:#withstr*))

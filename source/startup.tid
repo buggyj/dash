@@ -1,0 +1,10 @@
+tags: $:/tags/StartupAction/PostRender
+title: $:/bj/startup
+type: text/vnd.tiddlywiki
+
+<$createclip>
+
+<$action-tiddlydo  $tabletid="$:/bj/ControlTable" $catname="getuserConfig" />
+
+</$createclip>
+<<overrideBeforeUnload>>

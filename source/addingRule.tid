@@ -6,6 +6,6 @@ type: text/vnd.tiddlywiki
 
 |!Title|!Body|!Tags|!Fields modifiers|!field initials|!Modes|
 ||||[[$:/bj/InitVals]]||nosave|
-|((*%tw*))|||[[$:/bj/storekeyScript]]||no-textsaver once add|
+|$:/temp/((*%tw*))|||[[$:/bj/storekeyScript]]||no-textsaver once add nontid|
 |((*$title*))|||[[$:/bj/addingScript]]||add append|
 						

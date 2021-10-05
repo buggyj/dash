@@ -1,0 +1,6 @@
+tags: Script
+title: $:/bj/getUserConfigScript
+type: application/x-bclip
+
+#command=readUserFile
+#test=((*@senddelayed(#command)*))
