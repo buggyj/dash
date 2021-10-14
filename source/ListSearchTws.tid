@@ -24,8 +24,8 @@ type: text/vnd.tiddlywiki
 <$action-tiddlydo  $tabletid="$:/bj/DropActionsTable" $catname="DelPath" path=<<currentIndex>> TidWikis={{$:/temp/bj/CurrentTwPaths}}/>
 </$button></td><td>
 <<currentIndex>>:</td><td><$select tiddler={{$:/temp/bj/CurrentTwPaths}} index=<<currentIndex>>>
-<option>true</option>
-<option>false</option>
+<option>enbled</option>
+<option>disabled</option>
 </$select></td></tr>
 </$list>
 </table>

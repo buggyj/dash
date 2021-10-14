@@ -7,6 +7,7 @@ Results
 </$button>
 <$button set="$:/temp/bj/var/switcher" setTo="$:/bj/Search">
 Define</$button>
-Tiddly Dash <$reveal class="blink"  type="match" text="true" state="$:/temp/bj/var/SearchInProgress">{{$:/core/images/advanced-search-button}}</$reveal>
+Tiddly Dash <$reveal class="blink"  type="match" text="true" state="$:/temp/bj/var/SearchInProgress">{{$:/core/images/advanced-search-button}}</$reveal><$button set="$:/temp/bj/var/switcher" setTo="$:/bj/colors" style="float: right;">
+colors</$button>
 </div>
 </div>

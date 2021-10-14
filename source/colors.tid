@@ -1,0 +1,10 @@
+caption: {{$:/language/ControlPanel/Palette/Caption}}
+tags: $:/tags/ControlPanel/Appearance
+title: $:/bj/colors
+type: text/vnd.tiddlywiki
+
+\define lingo-base() $:/language/ControlPanel/Palette/
+
+{{$:/snippets/paletteswitcher}}
+
+

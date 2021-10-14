@@ -3,4 +3,5 @@ title: $:/bj/getUserConfigScript
 type: application/x-bclip
 
 #command=readUserFile
-#test=((*@senddelayed(#command)*))
+#delay=10
+#test=((*@senddelayed(#delay,#command)*))

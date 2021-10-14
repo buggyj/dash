@@ -10,3 +10,4 @@ type: text/vnd.tiddlywiki
 |StartKeyB|||$:/bj/DelResultsRule||
 |getuserConfig|||$:/bj/getUserConfigRule||
 |savetw|||$:/bj/savetwRule||
+|enablesavetw|||$:/bj/enablesavetwRule|nofin|

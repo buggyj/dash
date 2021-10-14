@@ -1,4 +1,4 @@
 title: $:/bj/usertemplate
 type: text/vnd.tiddlywiki
 
-<$macrocall $name="jsontiddlers" filter="[tag[$:/bj/SearchTerms]][tag[$:/bj/TidWikisList]]" $output="text/raw"/>
+<$macrocall $name="jsontiddlers" filter="[tag[$:/bj/SearchTerms]][tag[$:/bj/TidWikisList]][tag[$:/bj/saveList]]" $output="text/raw"/>

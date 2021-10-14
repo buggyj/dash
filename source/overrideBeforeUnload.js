@@ -3,7 +3,7 @@ title: $:/bj/overrideBeforeUnload.js
 type: application/javascript
 module-type: macro
 
-Macro to return a formatted version of the current time
+
 
 \*/
 (function(){
